@@ -1,0 +1,151 @@
+*{
+    font-family: TeamViewerSans,Noto Sans,verdana,sans-serif;
+    letter-spacing: 0.3px;
+}
+body{
+    
+    overflow-x: hidden;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    display: flex; 
+    flex-direction: column;
+    
+}
+ul li {
+    list-style: none;
+  
+    display: flex; 
+    flex-direction: column;
+    
+}
+
+ul li:hover {
+    opacity: 0.5;
+}
+div a{
+    text-decoration: none;
+}
+
+
+.img3{
+    transition: transform 0.5s;
+}
+.img3:hover{
+    
+    
+    transform:scale(1.09) ;
+}
+
+
+.img4:hover .img5{
+    opacity: 0.5;
+}
+
+.arrow:hover{
+    background-color: #a7a7aa;
+    color: #fff;
+    border-style: solid; 
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+
+
+@media only screen and (max-width:1600px) {
+    .img1{
+     display: none;
+    }
+
+    .nan{
+        font-size:3rem;
+    }
+   
+ 
+     
+ }
+ 
+
+@media only screen and (max-width:1200px) {
+   .img1{
+    display: none;
+ 
+}
+.ara{
+    font-size: 1.8rem;
+}
+.nan{
+    font-size: 4.5rem;
+}
+}
+
+
+@media only screen and (max-width:992px) {
+
+    .img1{
+        display: block;
+    }
+   
+    .text1{
+        
+        align-items: center;
+        text-align: center;
+        
+    }
+    #button1{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .ara{
+        font-size: 1.6rem;
+    }
+    .nan{
+        font-size: 4rem;
+    }
+
+
+
+
+    
+
+}
+@media only screen and (max-width:768px) {
+
+    .ara{
+       
+        font-size: 1.5;
+
+    }
+    .nan{
+        font-size:3.5rem;
+    }
+   
+    
+}
+
+@media only screen and (max-width:576px) {
+
+    .img1{
+        display: block;
+    }
+   
+    .text1{
+        
+        align-items: center;
+        text-align: center;
+        
+    }
+   
+    
+}
+
+
+        
+
+
+
+    
+
+
